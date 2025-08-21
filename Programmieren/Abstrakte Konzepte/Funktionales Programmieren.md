@@ -1,0 +1,1 @@
+Funktionales Programmieren hat die Eigenschaft, dass es nicht nur Deterministisch, sondern auch Beweisbar ist. Das ist für kritische Projekte wie in der Raumfahrt.

@@ -1,0 +1,11 @@
+- 25min pro Übung
+- Wahrscheinlichkeiten
+	- Summenregel
+	- Produkteregel
+- Baumdiagramm
+- Binominalverteilung
+- Bniomische Formeln
+- Pascalsches Dreieck
+
+- A4-Seite Spicker erlaubt
+- 

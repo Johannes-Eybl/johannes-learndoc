@@ -1,0 +1,219 @@
+{
+  "main": {
+    "id": "b01ba9cff6c53a82",
+    "type": "split",
+    "children": [
+      {
+        "id": "c81c9eecbe4b30ac",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "73e57262f52c71c7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Programmieren/Frameworks/Spring Boot/Konfiguration.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Konfiguration"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "725a1315f0882682",
+    "type": "split",
+    "children": [
+      {
+        "id": "166e2b9a28229cd1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "27799dfc1621c126",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "0c4df1024c7eb40d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "Spring initializ",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "25b0bca97242dfe5",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 276.5
+  },
+  "right": {
+    "id": "8ef803fe7ffb50bd",
+    "type": "split",
+    "children": [
+      {
+        "id": "656b6be7d3c04a46",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8ba42595c2db9b13",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Projekte/Confluence-Plugin.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Confluence-Plugin"
+            }
+          },
+          {
+            "id": "ee4c64509d26689d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Projekte/Confluence-Plugin.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Confluence-Plugin"
+            }
+          },
+          {
+            "id": "5c852df2b586285c",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "fd4d0d9621902050",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Projekte/Confluence-Plugin.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Confluence-Plugin"
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "bases:Create new base": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "templates:Insert template": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "73e57262f52c71c7",
+  "lastOpenFiles": [
+    "Programmieren/Frameworks/Spring Boot/Controller.md",
+    "Programmieren/Frameworks/Spring Boot/DTOs.md",
+    "Programmieren/Frameworks/Spring Boot/Einführung.md",
+    "Programmieren/Frameworks/Spring Boot/Entity.md",
+    "Programmieren/Frameworks/Spring Boot/Konfiguration.md",
+    "Programmieren/Frameworks/Spring Boot/Maven.md",
+    "Programmieren/Frameworks/Spring Boot/Repository.md",
+    "Programmieren/Frameworks/Spring Boot/Service.md",
+    "ÜK/ÜK - Multiuser/Transaktionen im DBMS.md",
+    "ÜK/ÜK - Multiuser/Testing und TDD.md",
+    "ÜK/ÜK - Multiuser/Modellierung.md",
+    "ÜK/ÜK - Multiuser/Informationssicherheit.md",
+    "ÜK/ÜK - Multiuser/Access Control.md",
+    "ÜK/ÜK - Backend/Fotos & PDF's/Untitled 2.png",
+    "ÜK/ÜK - Backend/Fotos & PDF's/Untitled 1.png",
+    "ÜK/ÜK - Backend/Fotos & PDF's/Untitled.png",
+    "ÜK/ÜK - Backend/Walkthrough 3-Tier Architektur.md",
+    "ÜK/ÜK - Backend/ÜK- Backend Übersicht.md",
+    "ÜK/ÜK - Backend/Testing (mit JUnit).md",
+    "ÜK/ÜK - Backend/Spring-ANNOTATION ZUSAMMENFASSUNG.md",
+    "ÜK/ÜK - Backend/OpenAPI Swagger.md",
+    "ÜK/ÜK - Backend/DTO’s und Services.md",
+    "ÜK/ÜK - Backend/HTTP.md",
+    "ÜK/ÜK - Backend/06 - RESTful-API.md",
+    "ÜK/ÜK - Backend/05 - Spring Boot - Intro & Annotations.md",
+    "Programmieren/Frameworks/Spring Boot/Architektur.md",
+    "SECO/Dashboard/Datenbank.md",
+    "SECO/Dashboard/Anforderungen Dashboard.md",
+    "SECO/Dashboard/Fragen.md",
+    "Postgresql",
+    "Programmieren/Frameworks/Spring Boot/Bilder/MavenProjektstruktur.png",
+    "Programmieren/Frameworks/Spring Boot/attachments",
+    "SECO/Dashboard/wireframe.png",
+    "SECO/Dashboard/wireframe_menu.png",
+    "SECO/Dashboard/wireframe_menu.drawio",
+    "Untitled.canvas",
+    "SECO/Dashboard/wireframe.drawio",
+    "Informatik",
+    "SECO/Dashboard",
+    "SECO",
+    "Programmieren/Programmmiersprachen/JS/TypeScript",
+    "Programmieren/Frameworks/Angular",
+    "Programmieren/Frameworks/Spring Boot/Bilder/SpringBootArchitecture.png",
+    "Programmieren/Programmmiersprachen/Java/Spring Boot/Bilder/Architektur.png",
+    "Programmieren/Frameworks/Spring Boot/Bilder",
+    "Schulmodule/Math/LB4/Pasted image 20250604150147.png",
+    "Schulmodule/Math/LB4/Pasted image 20250604145916.png",
+    "Untitled 1.canvas"
+  ]
+}
