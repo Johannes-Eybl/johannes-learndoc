@@ -7,7 +7,7 @@
 	- [ ] docker-compose -f pfad/zum/file up -d
 
 # Git-Accesstoken
-glpat-sC3QAkHL2qgV1me2fxE2
+
 
 
 ## Befehle für Lehrer
