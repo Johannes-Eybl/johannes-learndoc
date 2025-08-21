@@ -10,12 +10,4 @@
 
 
 
-## Befehle für Lehrer
 
-git clone https://git.gibb.ch/jey149014/m347-uebungsprojekt.git
-
-cd m347-uebungsprojekt/
-
-docker build -t test:v1 .
-
-docker run -d -p 5000:5000 --name my-container test:v1
