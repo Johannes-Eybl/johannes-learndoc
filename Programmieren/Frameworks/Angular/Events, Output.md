@@ -1,6 +1,4 @@
-#JavaScript 
-#angular 
-#frontend 
+#JavaScript #angular #frontend 
 In Angular werden Elemente mit EventListeners ausgestattet. Ein EventListener wird ganz einfach definiert:
 ```HTML
 <button (click)="onUserClick()">MyBtn</button>

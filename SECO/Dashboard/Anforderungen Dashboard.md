@@ -1,11 +1,16 @@
 # Benötigt in der Namespace-Card
-- CPUs
-- Memory
-- Pods
+- Name
+- Memory verbraucht
+- CPU verbraucht
+- Anzahl Pods am laufen
 # Benötigt im Header
-- Kapazität total
-- CPU total
-- Memory total
+Informationen über den Ressourcenverbrauch des Clusters
+- Memory vorhanden / verbraucht / frei
+- CPU vorhanden / verbraucht / frei
+# Zustands-Anzeige
+Pro Ressourcentyp (CPU/Memory) anzeigen, ob <50%, >50% oder >50% verbraucht werden.
+# Detailansicht Namespace
+Ja, das kommt auch noch...
 # Filter-Funktion
 Der Admin will kontrollieren, welche Namespaces im Dashboard angezeigt werden sollten und welche nicht.
 

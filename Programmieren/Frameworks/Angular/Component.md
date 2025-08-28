@@ -137,6 +137,20 @@ export class ControlComponent {
 }
 ```
 Mit dieser Konfiguration wird das CSS nicht mehr auf diesen Component beschränkt, sondern wird global angewendet. Es wird nicht mehr auf den einen Component beschränkt (encapsulated), sondern global angewendet.
+# Auf gewrappte Components zugreifen
+Will man vom Parent aus auf einen Child-Component zugreifen, kann man entweder [[Template Values]] verwenden, oder direkt mit '@ViewChild' darauf zugreifen.
+```TypeScript
+@Component({ .. })  
+export class NamespaceManagementContainerComponent {  
+    @ViewChild(ModalComponent) modal?: ModalComponent;  
+    
+    onAddClick() {  
+        this.modal?.show()  
+    }  
+}
+```
+In diesem Beispiel wird die 'show()'-Funktion eines Modals aufgerufen, wenn im Parent auf 'add' geklickt wurde. 
+Mit '@ViewChild' hat man Zugriff auf das Modal-Element, welches ein Kind dieses Components ist. So kann man dessen Funktionen aufrufen.
 # Host-Element/Selector stylen
 Manchmal will man innerhalb eines Components das Host-Element stylen. Also der Tag, unter dem der Component im HTML verwendet wird (zb. '<app-button/>'). Dieses CSS wird mit dem ':host'-Tag beschrieben:
 ```CSS

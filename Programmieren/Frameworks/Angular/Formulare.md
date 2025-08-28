@@ -12,6 +12,10 @@ Doch wenn man grössere Applikationen entwickelt, sollte man sich zu Einfachheit
 | **Herangehensweise** | Deklarativ - die meiste Logik ist innerhalb vom HTML | Imperativ - die meiste Logik ist innerhalb vom TypeScript |
 | **Skalierbarkeit**   | Kleine, simple Formulare                             | Komplexe, dynamische Formulare                            |
 | **Testing**          | Schwieriger zum testen, da der Code im HTML lebt.    | Einfach zu testen                                         |
+| **Form Controls**    | Automatisch erstellt, weniger Kontrolle              | Explizit erstellt, volle Kontrolle                        |
+| **Validation**       | Direkt im Template mit Directives ('required')       | Explizit erstellt mit 'FormControl' und 'FormGroup'       |
+| **Dynamische Forms** | Schwer umzusetzen                                    | Sehr einfach erstellbar                                   |
+| **Reactivity**       | [[Two Way Binding und Formulare]] - mit 'ngModel'    | Über Ovservables erreichbar ('valueChanges')              |
 # Template-Driven Forms
 ## Deklaration
 Wenn man eine Template-Driven Form verwendet, erstellt Angular im Hintergrund ein 'FormControl'- und ein 'FormGroup'-Objekt. Diese Objekte müssen mit [[#Reactive Forms]] explizit definiert werden.
@@ -23,6 +27,13 @@ Um Angular zu sagen, dass es diese Objekte im Hintergrund erstellen soll, muss m
 </form>
 ```
 Nun weis Angular, welche Art von Formular verwendet wird. Jetzt werden die mit 'ngModel' versehenden Inputs (nächste Abschnitt) mit dem generierten Form-Objekt verknüpft.
+
+Die oben definierte Form sollte mit einem Submit-Knopf ergänzt werden:
+```TypeScript
+<form #form="ngForm">    
+    <button type="submit">Submit</button>  
+</form>
+```
 ## Inputs definieren
 Template-Driven Forms verwenden 'ngModel' im HTML, um ihre Werte mit TS-Variablen zu verbinden. 
 ```HTML
@@ -34,6 +45,7 @@ Zunächst muss dem Form-Element eine 'onSubmit'-Variable hinzugefügt werden:
 ```HTML
 <form #form="ngForm" (ngSubmit)="onSubmit(form)">
 	...
+    <button type="submit">Submit</button>  
 </form>
 ```
 Darauf kann man diese Methode im Component definieren:
@@ -133,7 +145,7 @@ input.ng-invalid.ng-touched.ng-dirty {
   border-color: #f84e2c;  
 }
 ```
-## Form resetten
+## Form prüfen & resetten
 Häufig will man eine Form automatisch leeren, zB. nachdem sie ausgefüllt wurde. Dafür gibt es eine Funktion innerhalb des 'ngForm'-Objekts.
 ```TypeScript
 @Component({ .. })  
